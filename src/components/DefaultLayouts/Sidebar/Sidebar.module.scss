@@ -1,0 +1,22 @@
+.wrapper{
+    --menu-font: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+
+    flex: 1;
+    height: 100%;
+    position: relative;
+}
+.menu{
+    background-color: var(--color-pink-200);
+}
+.menu li div{
+    padding: 28px 0;
+    font-weight: 600;
+    box-shadow: 1pt 1pt var( --color-grey-400);
+    background-color: white;
+    
+}
+.menu li ul{
+    overflow-y: overlay;
+    max-height: 250px;
+ }
+

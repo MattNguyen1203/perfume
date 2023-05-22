@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;600&family=Lobster&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Cham&display=swap');
+
+:root{
+    --primary-color:#000;
+    --color-secondary: rgb(166, 166, 166);
+    --color-highlight: #ff3f40;
+    --color-grey-200:rgb(248, 248, 248);
+    --color-grey-300: rgb(230, 230, 230);
+    --color-grey-400: #cccccc;
+    --color-grey-500: #8f8f8f;
+    --color-grey-600: #696969;
+    --color-grey-700: #4c4c4c;
+    --color-pink-200:rgb(253, 251, 251);
+    --color-pink-300:#e4dede;
+
+    
+    --font: 'Prompt', sans-serif;
+    --second-font:'Lobster', cursive;
+    --font-nav:Rasa, serif;
+    --font-detail:"Raleway", sans-serif;
+    --font-4:'Sarabun', sans-serif;
+    --font-5:'Noto Sans Cham', sans-serif;
+    --product-background:url(https://img.freepik.com/free-photo/white-concrete-wall_53876-92803.jpg?w=1380&t=st=1680847869~exp=1680848469~hmac=682ac4cf2b130a8ff90fe6aa461f00fe82e10a0795c0d2a9c8a78926ae7b3883);
+    --boder-400:1px solid var(--color-grey-400);
+    --boder-500:1px solid var(--color-grey-500);
+    --background-cart:url(https://img.freepik.com/free-photo/water-drops-background_23-2148098940.jpg?w=1380&t=st=1681542679~exp=1681543279~hmac=de58f080f5c4e10baedfdbf96eef2b42b5274aeee3d46ec23c77bd0d06cc5e54);
+
+}
+
+//Reset css
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    color: var(--primary-color);
+    font-family: var(--font);
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+    overflow: overlay;
+}
+
+
+button, input, [tabindex] {
+    outline: none;
+    border: none;
+    user-select: none;
+
+}
+
+a[href] {
+    text-decoration: none;
+    appearance: none;
+}
+
+  
+//   .ant-tag,
+//   .ant-select-selector * {
+//     font-family: "Ysabeau", sans-serif;
+//   }
+  
+//   .italic {
+//     font-style: italic;
+//   }
+  
+//   .bold {
+//     font-weight: bolder;
+//   } 
+  
+//Scroll-bar css
+html *::-webkit-scrollbar {
+    border-radius: 0;
+    width: 8px;
+}
+
+html *::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+html *::-webkit-scrollbar-track {
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0);
+}

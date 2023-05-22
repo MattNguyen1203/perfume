@@ -1,0 +1,156 @@
+
+.nav-open{
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    z-index: 3;
+    font-family: var(--font-nav);
+    background-color: rgb(238, 213, 213);
+
+}
+.btn-close{
+    font-family: "DynaPuff", cursive;
+    font-size: 4rem;
+    margin-left: 4rem;
+    cursor: pointer;
+    &:hover{
+        font-weight: bold;
+
+    }
+    
+}
+.nav-all{
+    width: 100%;
+    // height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+}
+
+.first{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.nav-cart{
+    margin: 12rem 13.2rem 0rem 0rem;
+    border: solid black 2px;
+    border-radius: 90%;
+    padding: 3rem;
+    width: 22rem;
+    font-size: 1.7rem;
+    text-align: center;
+
+    &:hover{
+        cursor: pointer;
+        border: 1px solid black;
+        color: rgb(33, 124, 120);
+    }
+}
+
+
+.nav-con{
+    margin: 2.5rem 0rem 0rem 5.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    &:hover{
+        .nav-text{
+            transform: translateX(65px);
+            transition: transform 0.3s ease-in-out;
+        }
+    }
+}
+
+.nav-text{
+    font-size: 1.6rem;
+    letter-spacing: 1.5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.nav-headline{
+    transition: transform 0.3s ease-in-out;
+    font-size: 7.3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    line-height: 1;
+    text-align: left;
+
+    &:hover{
+        cursor: pointer;
+        transform: translateX(25px);
+        transition: transform 0.3s ease-in-out;
+    }
+}
+
+.numx{
+    margin-top: 10.5rem;
+}
+
+.numy{
+    margin-left: 40%;
+}
+
+.numz{
+    margin-left: 14%;
+
+}
+
+.nav-input{
+    width: 80%;
+    background-color: transparent;
+    font-size: 9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    line-height: 1;
+    text-align: left;
+    height: 100px;
+    &:focus{
+        background: url(https://demos.freehtml5.co/aline/premium/assets/images/input-bg.png) transparent no-repeat left bottom;
+    }
+}
+
+
+.bottom{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 1.4rem;
+}
+
+.bottom-credit{
+    position: absolute;
+    margin-left: 40%;
+    bottom: 5%;
+}
+
+.halo{
+    display: flex;
+}
+
+.icon-container{
+    display: flex;
+
+    .icon{
+        font-size: 4rem;
+        svg{
+            width: 30px;
+            position: relative;  
+            margin-right: 1.4rem; 
+        }
+    }
+}
+
+
+.hi{
+    font-size: 9rem;
+    color: black;
+
+    &:hover{
+        color: rgb(33, 124, 120);
+    }
+}

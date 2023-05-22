@@ -1,0 +1,71 @@
+
+// Button of MiniCart Component
+.icon-close{
+    font-size: 3rem;
+    background-color: transparent;
+    font-family: 'DynaPuff', cursive;
+    cursor: pointer;
+    &:hover{
+        font-weight: 600;
+    } 
+}
+
+// Button sidebar
+.btn-filter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 32px 0;
+    padding: 12px 0;
+    box-shadow: 1pt 1pt 1pt 0.5pt var( --color-grey-600);
+    border-radius: 5px;
+    font-size: 1.8rem;
+    font-family:var(--menu-font);
+    font-weight: 600;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+
+    &:hover{
+        background-color: black;
+        color: white;
+        opacity: 0.7;
+    }
+ }
+
+
+ // Home btn
+
+ .banner-shop, .link-shop{
+    cursor: pointer;
+    margin-right: 2rem;
+    padding: 8px 16px;
+    text-align: center;
+    background-color: #5e2b2b;
+    border-radius: 5px;
+    color: white;
+
+    &:hover{
+        opacity: 0.7;
+    }
+}
+.banner-shop{
+    font-size: 1.8rem !important;
+}
+
+.link-shop{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+
+
+.trend-btn{
+        cursor: pointer;
+        border: 1px solid rgb(153, 120, 120);
+        background-color: #e6dada;
+        margin: 2rem;
+        padding: 1rem 1.5rem;
+        border-radius: 14%;
+    }

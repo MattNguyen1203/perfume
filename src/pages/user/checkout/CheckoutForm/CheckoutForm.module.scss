@@ -1,0 +1,64 @@
+.btn-submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 50%;
+    height: 50px;
+    margin: 50px auto 0;
+    background-color: black;
+    font-size: 1.6rem;
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+    &:hover{
+        opacity:0.75
+    }
+
+}
+
+.form{
+    width: 100%;
+    position: relative;
+
+    input{
+        height: 40px;
+        padding: 16px;
+        &::-webkit-outer-spin-button,
+        &::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+        }
+    }
+    label{
+        font-weight: 600; 
+    }
+}
+
+
+.Modal{
+    --width:400px;
+    --height:300px;
+    --position-height: calc(50% - var(--height)/2) ;
+    --position-width: calc(50% - var(--width)/2) ;
+    position: absolute;
+    top: var(--position-height);
+    right: var(--position-width);
+    width: var(--width);
+    height:var(--height);
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+    outline: none;
+    padding: 0px;
+    animation: pull 1.5s ease-in-out;
+    box-sizing: border-box;
+}
+.OverLay{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(0, 0, 0,0.4);
+    cursor: pointer;
+}
